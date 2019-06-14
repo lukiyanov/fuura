@@ -1,0 +1,1280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="ArgumentSet.h">
+      <Filter>Заголовочные файлы\{} fuura\interpretation\Function</Filter>
+    </ClInclude>
+    <ClInclude Include="ArgumentInfo.h">
+      <Filter>Заголовочные файлы\{} fuura\interpretation\Function</Filter>
+    </ClInclude>
+    <ClInclude Include="ANTLR4\FuuraErrorListener.h">
+      <Filter>Заголовочные файлы\{} fuura\{} antlr</Filter>
+    </ClInclude>
+    <ClInclude Include="ICalculatable.h">
+      <Filter>Заголовочные файлы\{} fuura\{} language\ICalculatable</Filter>
+    </ClInclude>
+    <ClInclude Include="ANTLR4\ANTLR4-generated\FuuraBaseListener.h">
+      <Filter>Заголовочные файлы\{} fuura\{} antlr\{} generated</Filter>
+    </ClInclude>
+    <ClInclude Include="ANTLR4\ANTLR4-generated\FuuraLexer.h">
+      <Filter>Заголовочные файлы\{} fuura\{} antlr\{} generated</Filter>
+    </ClInclude>
+    <ClInclude Include="ANTLR4\ANTLR4-generated\FuuraListener.h">
+      <Filter>Заголовочные файлы\{} fuura\{} antlr\{} generated</Filter>
+    </ClInclude>
+    <ClInclude Include="ANTLR4\ANTLR4-generated\FuuraParser.h">
+      <Filter>Заголовочные файлы\{} fuura\{} antlr\{} generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Operation.h">
+      <Filter>Заголовочные файлы\{} fuura\{} language\FuuraSemantics\OperationFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="OperationFactory.h">
+      <Filter>Заголовочные файлы\{} fuura\{} language\FuuraSemantics\OperationFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessorTypes.h">
+      <Filter>Заголовочные файлы\{} fuura\{} compilation</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Function.h">
+      <Filter>Заголовочные файлы\{} fuura\interpretation\Function</Filter>
+    </ClInclude>
+    <ClInclude Include="IParser.h">
+      <Filter>Заголовочные файлы\{} fuura\interpretation</Filter>
+    </ClInclude>
+    <ClInclude Include="Translator.h">
+      <Filter>Заголовочные файлы\{} fuura\interpretation\Translator</Filter>
+    </ClInclude>
+    <ClInclude Include="Value.h">
+      <Filter>Заголовочные файлы\{} fuura\interpretation</Filter>
+    </ClInclude>
+    <ClInclude Include="Exception.h">
+      <Filter>Заголовочные файлы\{} fuura</Filter>
+    </ClInclude>
+    <ClInclude Include="ArgumentNameList.h">
+      <Filter>Заголовочные файлы\{} fuura\interpretation\Translator</Filter>
+    </ClInclude>
+    <ClInclude Include="ToString.h">
+      <Filter>Заголовочные файлы\{} fuura\{} tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Convert.h">
+      <Filter>Заголовочные файлы\{} fuura\{} tools</Filter>
+    </ClInclude>
+    <ClInclude Include="GetValueType.h">
+      <Filter>Заголовочные файлы\{} fuura\{} tools</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionSignature.h">
+      <Filter>Заголовочные файлы\{} fuura\{} tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Token.h">
+      <Filter>Заголовочные файлы\{} fuura\{} antlr</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeCastFactory.h">
+      <Filter>Заголовочные файлы\{} fuura\{} language\FuuraSemantics\TypeCastFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="FuuraSemantics.h">
+      <Filter>Заголовочные файлы\{} fuura\{} language\FuuraSemantics</Filter>
+    </ClInclude>
+    <ClInclude Include="IArgumentSet.h">
+      <Filter>Заголовочные файлы\{} fuura\interpretation\Function</Filter>
+    </ClInclude>
+    <ClInclude Include="ANTLR4Parser.h">
+      <Filter>Заголовочные файлы\{} fuura\{} antlr</Filter>
+    </ClInclude>
+    <ClInclude Include="GetCppType.h">
+      <Filter>Заголовочные файлы\{} fuura\{} tools</Filter>
+    </ClInclude>
+    <ClInclude Include="ArgumentTypeCastDecoratorFactory.h">
+      <Filter>Заголовочные файлы\{} fuura\{} language\FuuraSemantics\OperationFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="ICalculatableFactories.h">
+      <Filter>Заголовочные файлы\{} fuura\{} language\FuuraSemantics\OperationFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="OperatorIf.h">
+      <Filter>Заголовочные файлы\{} fuura\{} language\ICalculatable\Calculatables</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\AbstractPredicateTransition.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\ActionTransition.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\AmbiguityInfo.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\ArrayPredictionContext.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\ATN.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\ATNConfig.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\ATNConfigSet.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\ATNDeserializationOptions.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\ATNDeserializer.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\ATNSerializer.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\ATNSimulator.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\ATNState.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\ATNType.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\AtomTransition.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\BasicBlockStartState.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\BasicState.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\BlockEndState.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\BlockStartState.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\ConfigLookup.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\ContextSensitivityInfo.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\DecisionEventInfo.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\DecisionInfo.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\DecisionState.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\EmptyPredictionContext.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\EpsilonTransition.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\ErrorInfo.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\LexerAction.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\LexerActionExecutor.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\LexerActionType.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\LexerATNConfig.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\LexerATNSimulator.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\LexerChannelAction.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\LexerCustomAction.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\LexerIndexedCustomAction.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\LexerModeAction.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\LexerMoreAction.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\LexerPopModeAction.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\LexerPushModeAction.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\LexerSkipAction.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\LexerTypeAction.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\LL1Analyzer.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\LookaheadEventInfo.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\LoopEndState.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\NotSetTransition.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\OrderedATNConfigSet.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\ParseInfo.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\ParserATNSimulator.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\PlusBlockStartState.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\PlusLoopbackState.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\PrecedencePredicateTransition.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\PredicateEvalInfo.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\PredicateTransition.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\PredictionContext.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\PredictionMode.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\ProfilingATNSimulator.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\RangeTransition.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\RuleStartState.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\RuleStopState.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\RuleTransition.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\SemanticContext.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\SetTransition.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\SingletonPredictionContext.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\StarBlockStartState.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\StarLoopbackState.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\StarLoopEntryState.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\TokensStartState.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\Transition.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\atn\WildcardTransition.h">
+      <Filter>Заголовочные файлы\{} antlr4\atn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\dfa\DFA.h">
+      <Filter>Заголовочные файлы\{} antlr4\dfa</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\dfa\DFASerializer.h">
+      <Filter>Заголовочные файлы\{} antlr4\dfa</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\dfa\DFAState.h">
+      <Filter>Заголовочные файлы\{} antlr4\dfa</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\dfa\LexerDFASerializer.h">
+      <Filter>Заголовочные файлы\{} antlr4\dfa</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\misc\Interval.h">
+      <Filter>Заголовочные файлы\{} antlr4\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\misc\IntervalSet.h">
+      <Filter>Заголовочные файлы\{} antlr4\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\misc\MurmurHash.h">
+      <Filter>Заголовочные файлы\{} antlr4\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\misc\Predicate.h">
+      <Filter>Заголовочные файлы\{} antlr4\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\misc\TestRig.h">
+      <Filter>Заголовочные файлы\{} antlr4\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\support\Arrays.h">
+      <Filter>Заголовочные файлы\{} antlr4\support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\support\BitSet.h">
+      <Filter>Заголовочные файлы\{} antlr4\support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\support\CPPUtils.h">
+      <Filter>Заголовочные файлы\{} antlr4\support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\support\Declarations.h">
+      <Filter>Заголовочные файлы\{} antlr4\support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\support\guid.h">
+      <Filter>Заголовочные файлы\{} antlr4\support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\support\StringUtils.h">
+      <Filter>Заголовочные файлы\{} antlr4\support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\tree\AbstractParseTreeVisitor.h">
+      <Filter>Заголовочные файлы\{} antlr4\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\tree\ErrorNode.h">
+      <Filter>Заголовочные файлы\{} antlr4\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\tree\ErrorNodeImpl.h">
+      <Filter>Заголовочные файлы\{} antlr4\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\tree\IterativeParseTreeWalker.h">
+      <Filter>Заголовочные файлы\{} antlr4\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\tree\ParseTree.h">
+      <Filter>Заголовочные файлы\{} antlr4\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\tree\ParseTreeListener.h">
+      <Filter>Заголовочные файлы\{} antlr4\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\tree\ParseTreeProperty.h">
+      <Filter>Заголовочные файлы\{} antlr4\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\tree\ParseTreeVisitor.h">
+      <Filter>Заголовочные файлы\{} antlr4\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\tree\ParseTreeWalker.h">
+      <Filter>Заголовочные файлы\{} antlr4\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\tree\RuleNode.h">
+      <Filter>Заголовочные файлы\{} antlr4\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\tree\SyntaxTree.h">
+      <Filter>Заголовочные файлы\{} antlr4\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\tree\TerminalNode.h">
+      <Filter>Заголовочные файлы\{} antlr4\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\tree\TerminalNodeImpl.h">
+      <Filter>Заголовочные файлы\{} antlr4\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\tree\Trees.h">
+      <Filter>Заголовочные файлы\{} antlr4\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\tree\pattern\Chunk.h">
+      <Filter>Заголовочные файлы\{} antlr4\tree\pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\tree\pattern\ParseTreeMatch.h">
+      <Filter>Заголовочные файлы\{} antlr4\tree\pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\tree\pattern\ParseTreePattern.h">
+      <Filter>Заголовочные файлы\{} antlr4\tree\pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\tree\pattern\ParseTreePatternMatcher.h">
+      <Filter>Заголовочные файлы\{} antlr4\tree\pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\tree\pattern\RuleTagToken.h">
+      <Filter>Заголовочные файлы\{} antlr4\tree\pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\tree\pattern\TagChunk.h">
+      <Filter>Заголовочные файлы\{} antlr4\tree\pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\tree\pattern\TextChunk.h">
+      <Filter>Заголовочные файлы\{} antlr4\tree\pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\tree\pattern\TokenTagToken.h">
+      <Filter>Заголовочные файлы\{} antlr4\tree\pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\tree\xpath\XPath.h">
+      <Filter>Заголовочные файлы\{} antlr4\tree\xpath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\tree\xpath\XPathElement.h">
+      <Filter>Заголовочные файлы\{} antlr4\tree\xpath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\tree\xpath\XPathLexer.h">
+      <Filter>Заголовочные файлы\{} antlr4\tree\xpath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\tree\xpath\XPathLexerErrorListener.h">
+      <Filter>Заголовочные файлы\{} antlr4\tree\xpath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\tree\xpath\XPathRuleAnywhereElement.h">
+      <Filter>Заголовочные файлы\{} antlr4\tree\xpath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\tree\xpath\XPathRuleElement.h">
+      <Filter>Заголовочные файлы\{} antlr4\tree\xpath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\tree\xpath\XPathTokenAnywhereElement.h">
+      <Filter>Заголовочные файлы\{} antlr4\tree\xpath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\tree\xpath\XPathTokenElement.h">
+      <Filter>Заголовочные файлы\{} antlr4\tree\xpath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\tree\xpath\XPathWildcardAnywhereElement.h">
+      <Filter>Заголовочные файлы\{} antlr4\tree\xpath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\tree\xpath\XPathWildcardElement.h">
+      <Filter>Заголовочные файлы\{} antlr4\tree\xpath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\antlr4-common.h">
+      <Filter>Заголовочные файлы\{} antlr4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\antlr4-runtime.h">
+      <Filter>Заголовочные файлы\{} antlr4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\ANTLRErrorListener.h">
+      <Filter>Заголовочные файлы\{} antlr4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\ANTLRErrorStrategy.h">
+      <Filter>Заголовочные файлы\{} antlr4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\ANTLRFileStream.h">
+      <Filter>Заголовочные файлы\{} antlr4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\ANTLRInputStream.h">
+      <Filter>Заголовочные файлы\{} antlr4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\BailErrorStrategy.h">
+      <Filter>Заголовочные файлы\{} antlr4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\BaseErrorListener.h">
+      <Filter>Заголовочные файлы\{} antlr4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\BufferedTokenStream.h">
+      <Filter>Заголовочные файлы\{} antlr4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\CharStream.h">
+      <Filter>Заголовочные файлы\{} antlr4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\CommonToken.h">
+      <Filter>Заголовочные файлы\{} antlr4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\CommonTokenFactory.h">
+      <Filter>Заголовочные файлы\{} antlr4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\CommonTokenStream.h">
+      <Filter>Заголовочные файлы\{} antlr4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\ConsoleErrorListener.h">
+      <Filter>Заголовочные файлы\{} antlr4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\DefaultErrorStrategy.h">
+      <Filter>Заголовочные файлы\{} antlr4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\DiagnosticErrorListener.h">
+      <Filter>Заголовочные файлы\{} antlr4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\Exceptions.h">
+      <Filter>Заголовочные файлы\{} antlr4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\FailedPredicateException.h">
+      <Filter>Заголовочные файлы\{} antlr4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\InputMismatchException.h">
+      <Filter>Заголовочные файлы\{} antlr4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\misc\InterpreterDataReader.h">
+      <Filter>Заголовочные файлы\{} antlr4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\InterpreterRuleContext.h">
+      <Filter>Заголовочные файлы\{} antlr4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\IntStream.h">
+      <Filter>Заголовочные файлы\{} antlr4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\Lexer.h">
+      <Filter>Заголовочные файлы\{} antlr4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\LexerInterpreter.h">
+      <Filter>Заголовочные файлы\{} antlr4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\LexerNoViableAltException.h">
+      <Filter>Заголовочные файлы\{} antlr4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\ListTokenSource.h">
+      <Filter>Заголовочные файлы\{} antlr4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\NoViableAltException.h">
+      <Filter>Заголовочные файлы\{} antlr4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\Parser.h">
+      <Filter>Заголовочные файлы\{} antlr4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\ParserInterpreter.h">
+      <Filter>Заголовочные файлы\{} antlr4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\ParserRuleContext.h">
+      <Filter>Заголовочные файлы\{} antlr4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\ProxyErrorListener.h">
+      <Filter>Заголовочные файлы\{} antlr4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\RecognitionException.h">
+      <Filter>Заголовочные файлы\{} antlr4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\Recognizer.h">
+      <Filter>Заголовочные файлы\{} antlr4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\RuleContext.h">
+      <Filter>Заголовочные файлы\{} antlr4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\RuleContextWithAltNum.h">
+      <Filter>Заголовочные файлы\{} antlr4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\RuntimeMetaData.h">
+      <Filter>Заголовочные файлы\{} antlr4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\Token.h">
+      <Filter>Заголовочные файлы\{} antlr4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\TokenFactory.h">
+      <Filter>Заголовочные файлы\{} antlr4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\TokenSource.h">
+      <Filter>Заголовочные файлы\{} antlr4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\TokenStream.h">
+      <Filter>Заголовочные файлы\{} antlr4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\TokenStreamRewriter.h">
+      <Filter>Заголовочные файлы\{} antlr4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\UnbufferedCharStream.h">
+      <Filter>Заголовочные файлы\{} antlr4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\UnbufferedTokenStream.h">
+      <Filter>Заголовочные файлы\{} antlr4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\Vocabulary.h">
+      <Filter>Заголовочные файлы\{} antlr4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\WritableToken.h">
+      <Filter>Заголовочные файлы\{} antlr4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ANTLR4-runtime\src\support\Any.h">
+      <Filter>Файлы исходного кода\{} antlr4\support</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionCall.h">
+      <Filter>Заголовочные файлы\{} fuura\{} language\ICalculatable\Calculatables</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionRegistry.h">
+      <Filter>Заголовочные файлы\{} fuura\{} language\FunctionRegistry</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionWrapper.h">
+      <Filter>Заголовочные файлы\{} fuura\{} language\FunctionRegistry</Filter>
+    </ClInclude>
+    <ClInclude Include="ForEach.h">
+      <Filter>Заголовочные файлы\{} fuura\{} tools</Filter>
+    </ClInclude>
+    <ClInclude Include="UnpackAndCall.h">
+      <Filter>Заголовочные файлы\{} fuura\{} tools</Filter>
+    </ClInclude>
+    <ClInclude Include="CppTypeCast.h">
+      <Filter>Заголовочные файлы\{} fuura\{} language\ICalculatable\Calculatables</Filter>
+    </ClInclude>
+    <ClInclude Include="Arifmetics.h">
+      <Filter>Заголовочные файлы\{} fuura\{} language\ICalculatable\Calculatables</Filter>
+    </ClInclude>
+    <ClInclude Include="Calculatables.h">
+      <Filter>Заголовочные файлы\{} fuura\{} language\ICalculatable</Filter>
+    </ClInclude>
+    <ClInclude Include="OverloadedFunctionSet.h">
+      <Filter>Заголовочные файлы\{} fuura\{} language\FunctionRegistry</Filter>
+    </ClInclude>
+    <ClInclude Include="MachineCodeContainer.h">
+      <Filter>Заголовочные файлы\{} fuura\{} compilation\AsmTranslator</Filter>
+    </ClInclude>
+    <ClInclude Include="CompiledFunction.h">
+      <Filter>Заголовочные файлы\{} fuura\{} compilation\AsmTranslator</Filter>
+    </ClInclude>
+    <ClInclude Include="RegisterType.h">
+      <Filter>Заголовочные файлы\{} fuura\{} compilation</Filter>
+    </ClInclude>
+    <ClInclude Include="JITCompiler.h">
+      <Filter>Заголовочные файлы\{} fuura\{} compilation</Filter>
+    </ClInclude>
+    <ClInclude Include="ISyntaxTreeContainer.h">
+      <Filter>Заголовочные файлы\{} fuura\{} compilation</Filter>
+    </ClInclude>
+    <ClInclude Include="ExecutionFlow.h">
+      <Filter>Заголовочные файлы\{} fuura\{} compilation</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualRegister.h">
+      <Filter>Заголовочные файлы\{} fuura\{} compilation</Filter>
+    </ClInclude>
+    <ClInclude Include="IExecutableMemoryManager.h">
+      <Filter>Заголовочные файлы\{} fuura\{} compilation\{} memory</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleExecutableMemoryManager.h">
+      <Filter>Заголовочные файлы\{} fuura\{} compilation\{} memory</Filter>
+    </ClInclude>
+    <ClInclude Include="AsmTranslator.h">
+      <Filter>Заголовочные файлы\{} fuura\{} compilation\AsmTranslator</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="OperationFactory.cpp">
+      <Filter>Файлы исходного кода\{} fuura\{} language</Filter>
+    </ClCompile>
+    <ClCompile Include="Translator.cpp">
+      <Filter>Файлы исходного кода\{} fuura\interpretation</Filter>
+    </ClCompile>
+    <ClCompile Include="ANTLR4Parser.cpp">
+      <Filter>Файлы исходного кода\{} fuura\{} antlr</Filter>
+    </ClCompile>
+    <ClCompile Include="ANTLR4\ANTLR4-generated\FuuraLexer.cpp">
+      <Filter>Файлы исходного кода\{} fuura\{} antlr\{} generated</Filter>
+    </ClCompile>
+    <ClCompile Include="ANTLR4\ANTLR4-generated\FuuraBaseListener.cpp">
+      <Filter>Файлы исходного кода\{} fuura\{} antlr\{} generated</Filter>
+    </ClCompile>
+    <ClCompile Include="ANTLR4\ANTLR4-generated\FuuraListener.cpp">
+      <Filter>Файлы исходного кода\{} fuura\{} antlr\{} generated</Filter>
+    </ClCompile>
+    <ClCompile Include="ANTLR4\ANTLR4-generated\FuuraParser.cpp">
+      <Filter>Файлы исходного кода\{} fuura\{} antlr\{} generated</Filter>
+    </ClCompile>
+    <ClCompile Include="Exception.cpp">
+      <Filter>Файлы исходного кода\{} fuura</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeCastFactory.cpp">
+      <Filter>Файлы исходного кода\{} fuura\{} language</Filter>
+    </ClCompile>
+    <ClCompile Include="FuuraSemantics.cpp">
+      <Filter>Файлы исходного кода\{} fuura\{} language</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\AbstractPredicateTransition.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\ActionTransition.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\AmbiguityInfo.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\ArrayPredictionContext.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\ATN.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\ATNConfig.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\ATNConfigSet.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\ATNDeserializationOptions.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\ATNDeserializer.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\ATNSerializer.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\ATNSimulator.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\ATNState.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\AtomTransition.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\BasicBlockStartState.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\BasicState.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\BlockEndState.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\BlockStartState.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\ContextSensitivityInfo.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\DecisionEventInfo.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\DecisionInfo.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\DecisionState.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\EmptyPredictionContext.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\EpsilonTransition.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\ErrorInfo.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\LexerAction.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\LexerActionExecutor.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\LexerATNConfig.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\LexerATNSimulator.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\LexerChannelAction.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\LexerCustomAction.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\LexerIndexedCustomAction.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\LexerModeAction.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\LexerMoreAction.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\LexerPopModeAction.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\LexerPushModeAction.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\LexerSkipAction.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\LexerTypeAction.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\LL1Analyzer.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\LookaheadEventInfo.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\LoopEndState.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\NotSetTransition.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\OrderedATNConfigSet.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\ParseInfo.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\ParserATNSimulator.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\PlusBlockStartState.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\PlusLoopbackState.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\PrecedencePredicateTransition.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\PredicateEvalInfo.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\PredicateTransition.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\PredictionContext.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\PredictionMode.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\ProfilingATNSimulator.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\RangeTransition.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\RuleStartState.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\RuleStopState.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\RuleTransition.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\SemanticContext.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\SetTransition.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\SingletonPredictionContext.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\StarBlockStartState.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\StarLoopbackState.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\StarLoopEntryState.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\TokensStartState.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\Transition.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\atn\WildcardTransition.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\atn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\dfa\DFA.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\dfa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\dfa\DFASerializer.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\dfa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\dfa\DFAState.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\dfa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\dfa\LexerDFASerializer.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\dfa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\misc\Interval.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\misc\IntervalSet.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\misc\MurmurHash.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\misc\Predicate.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\support\Any.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\support\Arrays.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\support\CPPUtils.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\support\guid.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\support\StringUtils.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\tree\ErrorNode.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\tree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\tree\ErrorNodeImpl.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\tree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\tree\IterativeParseTreeWalker.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\tree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\tree\ParseTree.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\tree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\tree\ParseTreeListener.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\tree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\tree\ParseTreeVisitor.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\tree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\tree\ParseTreeWalker.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\tree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\tree\TerminalNode.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\tree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\tree\TerminalNodeImpl.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\tree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\tree\Trees.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\tree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\tree\pattern\Chunk.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\tree\pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\tree\pattern\ParseTreeMatch.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\tree\pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\tree\pattern\ParseTreePattern.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\tree\pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\tree\pattern\ParseTreePatternMatcher.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\tree\pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\tree\pattern\RuleTagToken.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\tree\pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\tree\pattern\TagChunk.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\tree\pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\tree\pattern\TextChunk.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\tree\pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\tree\pattern\TokenTagToken.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\tree\pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\tree\xpath\XPath.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\tree\xpath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\tree\xpath\XPathElement.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\tree\xpath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\tree\xpath\XPathLexer.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\tree\xpath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\tree\xpath\XPathLexerErrorListener.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\tree\xpath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\tree\xpath\XPathRuleAnywhereElement.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\tree\xpath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\tree\xpath\XPathRuleElement.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\tree\xpath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\tree\xpath\XPathTokenAnywhereElement.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\tree\xpath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\tree\xpath\XPathTokenElement.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\tree\xpath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\tree\xpath\XPathWildcardAnywhereElement.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\tree\xpath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\tree\xpath\XPathWildcardElement.cpp">
+      <Filter>Файлы исходного кода\{} antlr4\tree\xpath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\ANTLRErrorListener.cpp">
+      <Filter>Файлы исходного кода\{} antlr4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\ANTLRErrorStrategy.cpp">
+      <Filter>Файлы исходного кода\{} antlr4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\ANTLRFileStream.cpp">
+      <Filter>Файлы исходного кода\{} antlr4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\ANTLRInputStream.cpp">
+      <Filter>Файлы исходного кода\{} antlr4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\BailErrorStrategy.cpp">
+      <Filter>Файлы исходного кода\{} antlr4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\BaseErrorListener.cpp">
+      <Filter>Файлы исходного кода\{} antlr4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\BufferedTokenStream.cpp">
+      <Filter>Файлы исходного кода\{} antlr4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\CharStream.cpp">
+      <Filter>Файлы исходного кода\{} antlr4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\CommonToken.cpp">
+      <Filter>Файлы исходного кода\{} antlr4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\CommonTokenFactory.cpp">
+      <Filter>Файлы исходного кода\{} antlr4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\CommonTokenStream.cpp">
+      <Filter>Файлы исходного кода\{} antlr4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\ConsoleErrorListener.cpp">
+      <Filter>Файлы исходного кода\{} antlr4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\DefaultErrorStrategy.cpp">
+      <Filter>Файлы исходного кода\{} antlr4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\DiagnosticErrorListener.cpp">
+      <Filter>Файлы исходного кода\{} antlr4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\Exceptions.cpp">
+      <Filter>Файлы исходного кода\{} antlr4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\FailedPredicateException.cpp">
+      <Filter>Файлы исходного кода\{} antlr4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\InputMismatchException.cpp">
+      <Filter>Файлы исходного кода\{} antlr4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\misc\InterpreterDataReader.cpp">
+      <Filter>Файлы исходного кода\{} antlr4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\InterpreterRuleContext.cpp">
+      <Filter>Файлы исходного кода\{} antlr4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\IntStream.cpp">
+      <Filter>Файлы исходного кода\{} antlr4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\Lexer.cpp">
+      <Filter>Файлы исходного кода\{} antlr4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\LexerInterpreter.cpp">
+      <Filter>Файлы исходного кода\{} antlr4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\LexerNoViableAltException.cpp">
+      <Filter>Файлы исходного кода\{} antlr4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\ListTokenSource.cpp">
+      <Filter>Файлы исходного кода\{} antlr4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\NoViableAltException.cpp">
+      <Filter>Файлы исходного кода\{} antlr4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\Parser.cpp">
+      <Filter>Файлы исходного кода\{} antlr4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\ParserInterpreter.cpp">
+      <Filter>Файлы исходного кода\{} antlr4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\ParserRuleContext.cpp">
+      <Filter>Файлы исходного кода\{} antlr4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\ProxyErrorListener.cpp">
+      <Filter>Файлы исходного кода\{} antlr4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\RecognitionException.cpp">
+      <Filter>Файлы исходного кода\{} antlr4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\Recognizer.cpp">
+      <Filter>Файлы исходного кода\{} antlr4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\RuleContext.cpp">
+      <Filter>Файлы исходного кода\{} antlr4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\RuleContextWithAltNum.cpp">
+      <Filter>Файлы исходного кода\{} antlr4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\RuntimeMetaData.cpp">
+      <Filter>Файлы исходного кода\{} antlr4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\Token.cpp">
+      <Filter>Файлы исходного кода\{} antlr4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\TokenSource.cpp">
+      <Filter>Файлы исходного кода\{} antlr4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\TokenStream.cpp">
+      <Filter>Файлы исходного кода\{} antlr4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\TokenStreamRewriter.cpp">
+      <Filter>Файлы исходного кода\{} antlr4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\UnbufferedCharStream.cpp">
+      <Filter>Файлы исходного кода\{} antlr4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\UnbufferedTokenStream.cpp">
+      <Filter>Файлы исходного кода\{} antlr4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\Vocabulary.cpp">
+      <Filter>Файлы исходного кода\{} antlr4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ANTLR4-runtime\src\WritableToken.cpp">
+      <Filter>Файлы исходного кода\{} antlr4</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionCall.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="OverloadedFunctionSet.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="JITCompiler.cpp">
+      <Filter>Файлы исходного кода\{} fuura\{} compilation</Filter>
+    </ClCompile>
+    <ClCompile Include="OperatorIf.cpp">
+      <Filter>Файлы исходного кода\{} fuura\interpretation</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionRegistry.cpp">
+      <Filter>Файлы исходного кода\{} fuura\interpretation</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualRegister.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="RegisterType.cpp">
+      <Filter>Файлы исходного кода\{} fuura\{} compilation</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleExecutableMemoryManager.cpp">
+      <Filter>Файлы исходного кода\{} fuura\{} compilation\{} memory</Filter>
+    </ClCompile>
+    <ClCompile Include="AsmTranslator.cpp">
+      <Filter>Файлы исходного кода\{} fuura\{} compilation</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{e7067bea-1e7a-42f7-8cfc-bc02e92595bd}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{2773b95d-028e-488e-87a8-441e5bc466f4}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы\{} fuura">
+      <UniqueIdentifier>{1db987b8-f7cc-4247-bff3-ca7c9b9cb265}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\{} fuura\{} antlr">
+      <UniqueIdentifier>{01792937-c998-4fc1-8e07-b98e3da20247}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\{} fuura\{} antlr\{} generated">
+      <UniqueIdentifier>{933047ae-c1f4-457a-8d33-0ba18d53b9f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\{} fuura\{} compilation">
+      <UniqueIdentifier>{b4c6c70b-0dec-4de3-b1ae-03492acd76ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\{} fuura\{} compilation\{} memory">
+      <UniqueIdentifier>{c7b2f23f-60f0-411e-8e8a-3058e9612eed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\{} fuura">
+      <UniqueIdentifier>{e7e3a7b2-d9d4-4cb1-96f0-168f5ffe1b26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\{} fuura\{} compilation">
+      <UniqueIdentifier>{0f5763fc-ba12-432e-8826-fe841e8b7aa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\{} fuura\{} antlr">
+      <UniqueIdentifier>{88b0ed93-61d1-423c-8ff8-d5c2c3ca6802}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\{} fuura\{} antlr\{} generated">
+      <UniqueIdentifier>{1ef8b0ba-ebca-4f0f-a6f8-77df234a4d2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\{} fuura\{} tools">
+      <UniqueIdentifier>{2215f11d-3896-40be-bc7b-f85cf81bd129}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\{} fuura\{} language">
+      <UniqueIdentifier>{d3b05586-6ba6-40ea-99a8-2985809eb345}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\{} fuura\interpretation">
+      <UniqueIdentifier>{cbf345f4-c662-4e79-a145-1c8fd29e49b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\{} fuura\interpretation\Function">
+      <UniqueIdentifier>{bd02aa3b-4bc9-4cb4-b263-d3055e352a07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\{} fuura\interpretation\Translator">
+      <UniqueIdentifier>{0f5de53a-4425-4914-b653-da327dbc6be1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\{} fuura\interpretation">
+      <UniqueIdentifier>{c842c4d3-5a19-44b2-8154-85d3582e160d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\{} fuura\{} language">
+      <UniqueIdentifier>{c846c85c-470f-433f-86ea-fbf37f078212}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\{} fuura\interpretation\StdFunctions">
+      <UniqueIdentifier>{3bf152e8-2d5c-4c02-8e76-c757d0f78e22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\{} fuura\{} language\FuuraSemantics">
+      <UniqueIdentifier>{d8c099bc-6d93-4017-9c07-3642f5e7640a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\{} fuura\{} language\FuuraSemantics\OperationFactory">
+      <UniqueIdentifier>{6ea9f1b3-939e-4a40-97c7-21404ea28902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\{} fuura\{} language\FuuraSemantics\TypeCastFactory">
+      <UniqueIdentifier>{ee358628-d8bb-4b14-b597-96c3f9680164}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\{} fuura\{} language\ICalculatable">
+      <UniqueIdentifier>{1755ff54-f39a-4515-8693-03a1f0da6b56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\{} fuura\{} language\ICalculatable\Calculatables">
+      <UniqueIdentifier>{324ea0fe-e7fb-4286-89e8-8d0ef3fab201}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\{} antlr4">
+      <UniqueIdentifier>{7cecc27f-d0dd-441f-bf61-69437f1183b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\{} antlr4\atn">
+      <UniqueIdentifier>{8dfa709f-0eac-4dd7-a5d4-20c5cbd16fa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\{} antlr4\dfa">
+      <UniqueIdentifier>{7f6db691-a381-4d22-b5c9-2b17f6fa65db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\{} antlr4\misc">
+      <UniqueIdentifier>{dfa55e03-3a76-4202-82d0-081589db354e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\{} antlr4\support">
+      <UniqueIdentifier>{800883a3-44b8-4a57-b3e1-22df2c153313}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\{} antlr4\tree">
+      <UniqueIdentifier>{1782b11d-4913-4469-953e-9193e25f23a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\{} antlr4\tree\pattern">
+      <UniqueIdentifier>{9cf3d2ff-fbb5-487a-84ee-332e42dfed53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\{} antlr4\tree\xpath">
+      <UniqueIdentifier>{6f03b964-88e6-4b7f-91e2-bc58a085c8cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\{} antlr4">
+      <UniqueIdentifier>{72a86d90-a5f3-4b84-85b7-47c2c13ec19d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\{} antlr4\atn">
+      <UniqueIdentifier>{ce5ae1e9-7875-4f16-9e67-5d204e99e58e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\{} antlr4\dfa">
+      <UniqueIdentifier>{8bc22d31-4dc6-4cc8-850b-44afb2cea27f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\{} antlr4\misc">
+      <UniqueIdentifier>{4e42bf8f-6574-4a7c-905d-7e5c19de8466}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\{} antlr4\support">
+      <UniqueIdentifier>{88007bdc-3dd9-4a8d-8ba3-8e19c83f1ccd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\{} antlr4\tree">
+      <UniqueIdentifier>{16e4e0f9-3bfa-458f-b09b-c29247b002b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\{} antlr4\tree\pattern">
+      <UniqueIdentifier>{e62057f5-7bc1-41ff-8c06-61a76c24e3af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\{} antlr4\tree\xpath">
+      <UniqueIdentifier>{f2ce4f43-b8f0-4ee4-a5f5-52aa9d54a5cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\{} fuura\{} language\FunctionRegistry">
+      <UniqueIdentifier>{cf9bca72-1ead-4259-9c21-388039f8f4bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\{} fuura\{} compilation\Asm instructions">
+      <UniqueIdentifier>{f29f953b-3e58-4ed7-a923-85fa5fcbe846}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\{} fuura\{} compilation\{} memory">
+      <UniqueIdentifier>{754c0a26-a8ea-4ad4-a8b4-54430ce8a886}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\{} fuura\{} compilation\AsmTranslator">
+      <UniqueIdentifier>{196e58ba-67de-4093-a572-50d70a790856}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

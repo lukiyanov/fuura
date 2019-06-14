@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fuura", "fuura\fuura.vcxproj", "{5FC4A570-8F90-4037-816F-290D8836CBD6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{BE99D687-C623-47E6-8105-9A453E149B47}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.md = LICENSE.md
+		README.md = README.md
+		syntax.txt = syntax.txt
+		TODO.txt = TODO.txt
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FuuraUnitTest", "FuuraUnitTest\FuuraUnitTest.vcxproj", "{1A819CCB-2A3C-4FC7-A21F-621B51C37313}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FuuraLIB", "FuuraLIB", "{F7876401-704B-4219-BE5A-7DA2878DE721}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug Static|x64 = Debug Static|x64
+		Debug Static|x86 = Debug Static|x86
+		Release Static|x64 = Release Static|x64
+		Release Static|x86 = Release Static|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FC4A570-8F90-4037-816F-290D8836CBD6}.Debug Static|x64.ActiveCfg = Debug|x64
+		{5FC4A570-8F90-4037-816F-290D8836CBD6}.Debug Static|x64.Build.0 = Debug|x64
+		{5FC4A570-8F90-4037-816F-290D8836CBD6}.Debug Static|x86.ActiveCfg = Debug|Win32
+		{5FC4A570-8F90-4037-816F-290D8836CBD6}.Debug Static|x86.Build.0 = Debug|Win32
+		{5FC4A570-8F90-4037-816F-290D8836CBD6}.Release Static|x64.ActiveCfg = Release|x64
+		{5FC4A570-8F90-4037-816F-290D8836CBD6}.Release Static|x64.Build.0 = Release|x64
+		{5FC4A570-8F90-4037-816F-290D8836CBD6}.Release Static|x86.ActiveCfg = Release|Win32
+		{5FC4A570-8F90-4037-816F-290D8836CBD6}.Release Static|x86.Build.0 = Release|Win32
+		{1A819CCB-2A3C-4FC7-A21F-621B51C37313}.Debug Static|x64.ActiveCfg = Debug|x64
+		{1A819CCB-2A3C-4FC7-A21F-621B51C37313}.Debug Static|x64.Build.0 = Debug|x64
+		{1A819CCB-2A3C-4FC7-A21F-621B51C37313}.Debug Static|x86.ActiveCfg = Debug|Win32
+		{1A819CCB-2A3C-4FC7-A21F-621B51C37313}.Debug Static|x86.Build.0 = Debug|Win32
+		{1A819CCB-2A3C-4FC7-A21F-621B51C37313}.Release Static|x64.ActiveCfg = Release|x64
+		{1A819CCB-2A3C-4FC7-A21F-621B51C37313}.Release Static|x64.Build.0 = Release|x64
+		{1A819CCB-2A3C-4FC7-A21F-621B51C37313}.Release Static|x86.ActiveCfg = Release|Win32
+		{1A819CCB-2A3C-4FC7-A21F-621B51C37313}.Release Static|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5FC4A570-8F90-4037-816F-290D8836CBD6} = {F7876401-704B-4219-BE5A-7DA2878DE721}
+		{1A819CCB-2A3C-4FC7-A21F-621B51C37313} = {F7876401-704B-4219-BE5A-7DA2878DE721}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16C3C259-B6CB-4949-A718-CF2F8566FEE3}
+	EndGlobalSection
+EndGlobal

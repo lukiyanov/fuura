@@ -30,3 +30,20 @@
 *.exe
 *.out
 *.app
+*.jar
+
+# ANTLR4 generated
+*.interp
+*.tokens
+
+# Other Visual Studio generated
+*.db
+*.log
+*.tlog
+*.idb
+*.pdb
+*.lastbuildstate
+*.suo
+*.ipch
+*.iobj
+*.ipdb

@@ -1,0 +1,7 @@
+tmp-1-d = const <int> {134}               // 
+tmp-2-d = const <int> {166}               // 
+tmp-3-d = add <int> (tmp-1-d, tmp-2-d)    // 
+tmp-4-d = const <int> {3}                 // 
+tmp-3-d = sub <int> (tmp-3-d, tmp-4-d)    // 
+
+
