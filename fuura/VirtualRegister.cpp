@@ -14,7 +14,7 @@ using namespace fuura::compilation;
 // ----------------------------------------------------------------------------
 inline VirtualRegister VirtualRegisterManager::Allocate(RegisterType type)
 {
-	m_registerData.push_back(VRData(type, m_registerData.size()));
+	m_registerData.push_back(VRData(type, static_cast<int>(m_registerData.size())));
 
 	// Здесь намеренно дважды создаётся VirtualRegister чтобы избежать копирования,
 	// увеличивающего длину цепочки.

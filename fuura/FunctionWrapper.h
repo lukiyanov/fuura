@@ -164,7 +164,7 @@ namespace fuura::language
 		if (args.size())
 		{
 			str += tools::ToString(args[0]);
-			for (int i = 1, size = args.size(); i < size; i++)
+			for (size_t i = 1, size = args.size(); i < size; i++)
 				str += ", " + tools::ToString(args[i]);
 		}
 		str += ')';

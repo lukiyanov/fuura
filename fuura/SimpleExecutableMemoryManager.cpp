@@ -10,7 +10,7 @@ std::shared_ptr<void> SimpleExecutableMemoryManager::PlaceToExecutableMemory(con
 	memcpy(allocatedMemory, shellCode, codeSizeInBytes);
 	
 	// Завязано на 32-битную реализацию адресации памяти и размер страницы в 0x1000 байт.
-	auto pageBegin = (LPVOID)(((int)allocatedMemory) & 0xFFFFF000);
+	auto pageBegin = (LPVOID)((reinterpret_cast<unsigned>(allocatedMemory)) & 0xFFFFF000u);
 	DWORD unused;
 	auto result = VirtualProtect(pageBegin, 0x1000, PAGE_EXECUTE_READWRITE, &unused);
 	if (!result)
